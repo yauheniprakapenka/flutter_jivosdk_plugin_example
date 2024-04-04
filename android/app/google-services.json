@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "566025135899",
+    "project_id": "jivosdk-flutterdemo",
+    "storage_bucket": "jivosdk-flutterdemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566025135899:android:34a85c40d7c1a05dfc15be",
+        "android_client_info": {
+          "package_name": "com.jivosite.jivosdk_flutter_demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQJFCSQu-lm1H_1E4qcKgozIYDI3Oeth8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

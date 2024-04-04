@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="agent_name_default">Оператор</string>
+    <string name="chat_subtitle_placeholder">Всегда на связи!</string>
+    <string name="chat_title_placeholder">Чат с поддержкой</string>
+    <string name="chat.state_unavailable.discription">В настоящий момент чат недоступен. Попробуйте написать нам немного позже.</string>
+    <string name="chat.state_unavailable.title">Чат временно недоступен</string>
+    <string name="welcome_message_placeholder">С мобильным приложением что-то пошло не так или просто что-то непонятно? Пишите, мы поможем!</string>
+</resources>
