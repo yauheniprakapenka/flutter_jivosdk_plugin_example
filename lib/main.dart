@@ -38,22 +38,18 @@ class HomePage extends StatelessWidget {
   }
 
   Future<void> _setupJivo() async {
-    // Notes:
-    // - Push notifications not implemented
-
-    // await Jivo.session.setContactInfo( // issue: https://github.com/JivoChat/JivoSDK-FlutterDemo/issues/7
-    //   name: 'test intervale',
-    //   phone: '+7 495 937 99 92',
-    //   email: 'misha.potapych@intervale.ru',
-    //   brief: 'here is some bried',
+    // await Jivo.session.setCustomData(
+    //   [
+    //     JVSessionCustomDataField('1', '2', '3', '4'),
+    //   ],
     // );
 
-    await Jivo.session.setContactInfo( // issue: https://github.com/JivoChat/JivoSDK-FlutterDemo/issues/8
-      name: 'Homer',
-      email: 'h.simpson@springfield.com',
-      phone: 'Simpson',
-      brief: 'Family guy',
-    );
+    // await Jivo.session.setContactInfo(
+    //   name: 'Homer',
+    //   email: 'h.simpson@springfield.com',
+    //   phone: 'Simpson',
+    //   brief: 'Family guy',
+    // );
 
     await Jivo.session.setup(channelId: '', userToken: '');
     await Jivo.display.present();
